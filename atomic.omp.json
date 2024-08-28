@@ -254,6 +254,26 @@
           "type": "azfunc"
         },
         {
+          "type": "az",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#9ec3f0",
+          "template": " \uebd8 {{ .EnvironmentName }}",
+          "properties": {
+            "source": "pwsh"
+          }
+        },
+        {
+          "type": "azd",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#9ec3f0",
+          "template": " \uebd8 {{ .DefaultEnvironment }} "
+        },
+        
+        {
           "background": "#565656",
           "foreground": "#FAA029",
           "leading_diamond": "\ue0b6",
