@@ -251,7 +251,7 @@
           "foreground": "#000000",
           "background": "#9ec3f0",
           "leading_diamond": "\ue0b6",
-          "template": " \uebd8 {{.Name}}",
+          "template": "\uebd8 {{.Name}}",
           "trailing_diamond": "\ue0b4 ",
           "properties": {
             "source": "pwsh"
