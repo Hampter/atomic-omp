@@ -245,34 +245,18 @@
           "type": "ruby"
         },
         {
-          "background": "#FFFFFF",
-          "foreground": "#5398C2",
-          "leading_diamond": "\ue0b6",
-          "style": "diamond",
-          "template": "\uf104<#F5BF45>\uf0e7</>\uf105 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-          "trailing_diamond": "\ue0b4 ",
-          "type": "azfunc"
-        },
-        {
           "type": "az",
-          "style": "powerline",
+          "style": "diamond",
           "powerline_symbol": "",
           "foreground": "#000000",
           "background": "#9ec3f0",
-          "template": " \uebd8 {{ .EnvironmentName }}",
+          "leading_diamond": "\ue0b6",
+          "template": " \uebd8 {{.Name}}",
+          "trailing_diamond": "\ue0b4 ",
           "properties": {
             "source": "pwsh"
           }
         },
-        {
-          "type": "azd",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#000000",
-          "background": "#9ec3f0",
-          "template": " \uebd8 {{ .DefaultEnvironment }} "
-        },
-        
         {
           "background": "#565656",
           "foreground": "#FAA029",
