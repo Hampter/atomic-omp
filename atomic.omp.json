@@ -262,7 +262,7 @@
           "foreground": "#FAA029",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "\uf0ef {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
+          "template": "\uf0ef  {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
           "trailing_diamond": "\ue0b4 ",
           "type": "aws"
         },
