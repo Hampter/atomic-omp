@@ -245,7 +245,6 @@
           "type": "ruby"
         },
         {
-          "type": "az",
           "style": "diamond",
           "powerline_symbol": "",
           "foreground": "#000000",
@@ -255,14 +254,15 @@
           "trailing_diamond": "\ue0b4 ",
           "properties": {
             "source": "pwsh"
-          }
+          },
+          "type": "az"
         },
         {
           "background": "#565656",
           "foreground": "#FAA029",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "\ue7ad {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
+          "template": "\uf0ef {{.Profile}}{{if .Region}}@{{.Region}}{{end}}",
           "trailing_diamond": "\ue0b4 ",
           "type": "aws"
         },
