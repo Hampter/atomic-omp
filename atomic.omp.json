@@ -174,13 +174,17 @@
           "type": "ruby"
         },
         {
-          "background": "#ffffff",
-          "foreground": "#5398c2",
-          "leading_diamond": "\ue0b6",
           "style": "diamond",
-          "template": "\uf104<#f5bf45>\uf0e7</>\uf105 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "powerline_symbol": "",
+          "foreground": "#000000",
+          "background": "#9ec3f0",
+          "leading_diamond": "\ue0b6",
+          "template": "\uebd8 {{.Name}}",
           "trailing_diamond": "\ue0b4 ",
-          "type": "azfunc"
+          "properties": {
+            "source": "pwsh"
+          },
+          "type": "az"
         },
         {
           "background": "#565656",
